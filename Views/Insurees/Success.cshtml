@@ -1,0 +1,11 @@
+﻿@model Car_Insurance_VS22.Models.Insuree
+@{
+    ViewData["Title"] = "Success";
+}
+
+<h1>Success</h1>
+
+<p>Congratulations, @Model.FirstName @Model.LastName!</p>
+<p>Your quote for a monthly payment is: <strong>@Model.Quote</strong></p>
+<a href="@Url.Action("Index", "Insurees")">Back to List</a>
+

@@ -1,0 +1,15 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<div class="text-center">
+    <h1>Welcome to Awesome Insurance</h1>
+    <p>To generate a quote for a monthly premium, please click the 'Create New Insuree' button below</p>
+
+</div>
+<div class="text-center">
+<p>
+    @Html.ActionLink("Create New Insuree", "Create", "Insurees", null, new { @class = "btn btn-primary" })
+</p>
+</div>
+
+
